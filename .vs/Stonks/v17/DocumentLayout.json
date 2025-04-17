@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Max\\Itchio\\StockSim\\Stonks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|c:\\max\\itchio\\stocksim\\stonks\\assets\\scripting\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|c:\\max\\itchio\\stocksim\\stonks\\assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CompanyGraph.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\CompanyGraph.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\CompanyGraph.cs",
@@ -39,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\Company.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\Company.cs",
@@ -52,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MarketManager.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\MarketManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\MarketManager.cs",
@@ -61,6 +65,20 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T19:53:01.707Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripting\\UIManager.cs",
+              "ToolTip": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripting\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:10:29.551Z",
               "IsPinned": true,
               "EditorCaption": ""
             }
