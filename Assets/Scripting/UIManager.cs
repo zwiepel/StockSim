@@ -6,15 +6,21 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
 
+    [Header("Panels")]
     public GameObject panelStartMessage;
     public GameObject panelMainUI;
 
+    [Header("UI Elements")]
     public TMP_Text balanceText;
     public Button continueButton;
     public Button marketButton;
     public Button upgradeButton;
 
+    [Header("External UIs")]
+    public MarketUI marketUI;
+
     private float _playerBalance = 10000f;
+
     public float PlayerBalance
     {
         get => _playerBalance;
@@ -27,15 +33,22 @@ public class UIManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null) Instance = this;
+        if (Instance == null)
+            Instance = this;
     }
 
     void Start()
     {
+        // Startbildschirm anzeigen
         panelStartMessage.SetActive(true);
         panelMainUI.SetActive(false);
 
+        // Button-Events
         continueButton.onClick.AddListener(ShowMainUI);
+        marketButton.onClick.AddListener(OpenMarket);
+
+
+        // Anfangs-Balance anzeigen
         UpdateBalanceUI();
     }
 
@@ -44,13 +57,17 @@ public class UIManager : MonoBehaviour
         panelStartMessage.SetActive(false);
         panelMainUI.SetActive(true);
     }
+    void OpenMarket()
+    {
+        panelMainUI.SetActive(false);
+        marketUI.ShowMarket();
+    }
 
     void UpdateBalanceUI()
     {
         balanceText.text = $"Balance: ${PlayerBalance:N2}";
     }
 
-    // Beispielmethoden (später aufrufen beim Kaufen/Verkaufen etc.)
     public void SpendMoney(float amount)
     {
         PlayerBalance -= amount;

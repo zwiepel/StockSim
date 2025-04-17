@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Max\\Itchio\\StockSim\\Stonks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|c:\\max\\itchio\\stocksim\\stonks\\assets\\scripting\\marketui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\marketui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|c:\\max\\itchio\\stocksim\\stonks\\assets\\scripting\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|c:\\max\\itchio\\stocksim\\stonks\\assets\\scripting\\companyitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\companyitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\companygraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\companygraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -43,17 +47,18 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T19:51:41.633Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\Company.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\Company.cs",
               "ToolTip": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\Company.cs",
               "RelativeToolTip": "Assets\\Scripting\\Company.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T19:52:26.329Z",
               "IsPinned": true,
@@ -61,41 +66,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MarketManager.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\MarketManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\MarketManager.cs",
               "ToolTip": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\MarketManager.cs",
               "RelativeToolTip": "Assets\\Scripting\\MarketManager.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T19:53:01.707Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\UIManager.cs",
               "ToolTip": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripting\\UIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T20:10:29.551Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MarketUI.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\MarketUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\MarketUI.cs",
               "ToolTip": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\MarketUI.cs",
               "RelativeToolTip": "Assets\\Scripting\\MarketUI.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAApwDUAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T14:47:56.034Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyItemUi.cs",
+              "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\CompanyItemUi.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripting\\CompanyItemUi.cs",
+              "ToolTip": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\CompanyItemUi.cs",
+              "RelativeToolTip": "Assets\\Scripting\\CompanyItemUi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:30:04.044Z",
               "IsPinned": true,
               "EditorCaption": ""
             }

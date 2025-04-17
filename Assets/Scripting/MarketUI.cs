@@ -56,16 +56,7 @@ public class MarketUI : MonoBehaviour
             foreach (var company in companyList)
             {
                 var item = Instantiate(companyItemPrefab, companyListContent);
-                var texts = item.GetComponentsInChildren<TMP_Text>();
-
-                // [0] = Name, [1] = Preis + Prozent
-                texts[0].text = company.Name;
-
-                float percentChange = company.GetPriceChangePercent();
-                string sign = percentChange >= 0 ? "+" : "-";
-                string color = percentChange >= 0 ? "green" : "red";
-
-                texts[1].text = $"${company.CurrentPrice:F2} <color={color}>({sign}{Mathf.Abs(percentChange):F2}%)</color>";
+                item.GetComponent<CompanyItemUI>().SetCompany(company);
             }
         }
     }
