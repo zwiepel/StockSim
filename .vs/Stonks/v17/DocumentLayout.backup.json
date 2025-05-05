@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Max\\Itchio\\StockSim\\Stonks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|c:\\max\\itchio\\stocksim\\stonks\\assets\\scripting\\marketui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\companyitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\companygraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\companygraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\companygraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripting\\companygraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBF3E02C-0799-6DD2-E780-3A044EECD7E0}|Assembly-CSharp.csproj|C:\\Max\\Itchio\\StockSim\\Stonks\\assets\\scripting\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CompanyGraph.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\CompanyGraph.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\CompanyGraph.cs",
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MarketManager.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\MarketManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\MarketManager.cs",
               "ToolTip": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\MarketManager.cs",
               "RelativeToolTip": "Assets\\Scripting\\MarketManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T19:53:01.707Z",
               "IsPinned": true,
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripting\\UIManager.cs",
@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripting\\MarketUI.cs",
               "ToolTip": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\MarketUI.cs",
               "RelativeToolTip": "Assets\\Scripting\\MarketUI.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAswDoAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T14:47:56.034Z",
               "IsPinned": true,
@@ -114,7 +114,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripting\\CompanyItemUi.cs",
               "ToolTip": "C:\\Max\\Itchio\\StockSim\\Stonks\\Assets\\Scripting\\CompanyItemUi.cs",
               "RelativeToolTip": "Assets\\Scripting\\CompanyItemUi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T15:30:04.044Z",
               "IsPinned": true,
