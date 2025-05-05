@@ -21,11 +21,18 @@ public class Company
 
     public List<float> priceHistory = new List<float>();
 
+    public void Initialize(float startPrice)
+    {
+        CurrentPrice = startPrice;
+        priceHistory.Clear();
+        priceHistory.Add(startPrice);
+    }
+
     public void UpdatePrice()
     {
-        float change = UnityEngine.Random.Range(-ChangeRate, ChangeRate);
+        float change = Random.Range(-ChangeRate, ChangeRate);
         CurrentPrice += change;
-        if (CurrentPrice < 0) CurrentPrice = 0.01f;
+        if (CurrentPrice < 0.01f) CurrentPrice = 0.01f;
 
         priceHistory.Add(CurrentPrice);
         if (priceHistory.Count > 50)

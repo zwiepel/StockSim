@@ -8,7 +8,7 @@ public class CompanyItemUI : MonoBehaviour
 
     public void SetCompany(Company company)
     {
-        Debug.Log("SetCompany called for: " + company.Name);
+        //Debug.Log("SetCompany called for: " + company.Name);
         nameText.text = company.Name;
 
         float percentChange = company.GetPriceChangePercent();

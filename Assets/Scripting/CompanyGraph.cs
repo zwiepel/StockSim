@@ -1,19 +1,44 @@
-using UnityEngine;
+﻿using UnityEngine;
+using System.Linq;
 
 public class CompanyGraph : MonoBehaviour
 {
     public LineRenderer lineRenderer;
-    public Company company;
+    private Company company;
 
-    void Update()
+    public void SetCompany(Company newCompany)
     {
-        if (company == null || company.priceHistory.Count == 0) return;
+        company = newCompany;
+        DrawGraph();
+    }
+
+    public void DrawGraph()
+    {
+        if (company == null || company.priceHistory.Count < 2)
+        {
+            Debug.Log(" Nicht genug Daten für Graph.");
+            return;
+        }
+
+        float xSpacing = 20f;
+        float max = company.priceHistory.Max();
+        float min = company.priceHistory.Min();
+        float yScale = 100f / Mathf.Max(1f, max - min);
 
         lineRenderer.positionCount = company.priceHistory.Count;
 
         for (int i = 0; i < company.priceHistory.Count; i++)
         {
-            lineRenderer.SetPosition(i, new Vector3(i * 0.2f, company.priceHistory[i] * 0.1f, 0));
+            float x = i * xSpacing;
+            float y = (company.priceHistory[i] - min) * yScale;
+            lineRenderer.SetPosition(i, new Vector3(x, y, 0));
         }
+
+        Debug.Log($" Graph gezeichnet für {company.Name} mit {lineRenderer.positionCount} Punkten.");
+    }
+
+    public void ClearGraph()
+    {
+        lineRenderer.positionCount = 0;
     }
 }

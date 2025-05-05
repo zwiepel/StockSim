@@ -5,13 +5,26 @@ using System.Collections.Generic;
 
 public class MarketUI : MonoBehaviour
 {
+    public static MarketUI Instance;
+
+    [Header("Panels")]
     public GameObject panelMarket;
+
+    [Header("Dropdown & Content")]
     public TMP_Dropdown categoryDropdown;
     public Transform companyListContent;
     public GameObject companyItemPrefab;
 
-    private bool showingAll = true;
+    [Header("Graph UI")]
+    public CompanyGraphUI graphUI;
+
     private CompanyCategory currentCategory = CompanyCategory.Tech;
+
+    void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+    }
 
     void Start()
     {
@@ -28,15 +41,18 @@ public class MarketUI : MonoBehaviour
     public void HideMarket()
     {
         panelMarket.SetActive(false);
-        UIManager.Instance.panelMainUI.SetActive(true);
+    }
+
+    public void ShowCompanyDetails(Company company)
+    {
+        panelMarket.SetActive(false); // MarketPanel ausblenden
+        graphUI.ShowGraph(company);   // GraphPanel anzeigen
     }
 
     void SetupCategoryDropdown()
     {
         categoryDropdown.ClearOptions();
-        var options = new List<string>();
-
-        options.Add("All"); // Wichtig: "All" hinzufügen
+        var options = new List<string> { "All" }; // "All" als erste Option
 
         foreach (var category in System.Enum.GetValues(typeof(CompanyCategory)))
         {
@@ -45,8 +61,7 @@ public class MarketUI : MonoBehaviour
 
         categoryDropdown.AddOptions(options);
         categoryDropdown.onValueChanged.AddListener(FilterCompanies);
-
-        categoryDropdown.value = 0; // Setze Dropdown auf "All" standardmäßig
+        categoryDropdown.value = 0; // Starte mit "All"
     }
 
     void FilterCompanies(int selectedIndex)
@@ -58,7 +73,7 @@ public class MarketUI : MonoBehaviour
 
         if (selectedIndex == 0)
         {
-            // Zeige ALLE Firmen
+            // Zeige alle Firmen aller Kategorien
             foreach (var categoryList in MarketManager.Instance.categorizedCompanies.Values)
             {
                 foreach (var company in categoryList)
@@ -70,7 +85,7 @@ public class MarketUI : MonoBehaviour
         else
         {
             // Zeige Firmen einer bestimmten Kategorie
-            currentCategory = (CompanyCategory)(selectedIndex - 1); // Achtung: -1 weil "All" am Anfang eingefügt wurde
+            currentCategory = (CompanyCategory)(selectedIndex - 1); // -1 wegen "All"
 
             if (MarketManager.Instance.categorizedCompanies.TryGetValue(currentCategory, out var companyList))
             {
@@ -85,6 +100,17 @@ public class MarketUI : MonoBehaviour
     void CreateCompanyItem(Company company)
     {
         var item = Instantiate(companyItemPrefab, companyListContent);
-        item.GetComponent<CompanyItemUI>().SetCompany(company);
+
+        var ui = item.GetComponent<CompanyItemUI>();
+        var clickable = item.GetComponent<CompanyItemClickable>();
+
+        if (ui == null || clickable == null)
+        {
+            Debug.LogError($"CompanyItemPrefab ist unvollständig für {company.Name}!");
+            return;
+        }
+
+        ui.SetCompany(company);
+        clickable.Setup(company);
     }
 }
